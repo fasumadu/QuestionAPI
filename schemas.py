@@ -40,5 +40,5 @@ class token(BaseModel):
 
 #what need to be in the token   
 class tokendata(BaseModel):
-    id:Optional[bool]=None
+    id:Optional[str]=None
 
